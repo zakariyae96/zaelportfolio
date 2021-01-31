@@ -1,0 +1,195 @@
+        .box {
+            box-sizing: border-box;
+        }
+
+
+        :root {
+            --color1: #D89584;
+            --color2: #F4F4F4;
+            --color3: #979797;
+            --color4: #656565;
+        }
+        body {
+            margin:0;
+            font-family: Arial;
+            line-height:1.5;
+        }
+        div.cover {
+            background: url(cover_overlay.png) no-repeat center/100% 100%, url(cover.jpg) no-repeat center/cover;
+            height: 380px;
+        }
+        img.cover-profile {
+            height : 130px;
+            width : 130px;
+            position : relative;
+            left : 50%;
+            margin-left : -65px;
+            margin-top : 50px;
+        }
+        h1 {
+            color : white;
+            text-align: center;
+            padding-top:10px;
+        }
+
+        div.cover p {
+            color : lightgray;
+            text-align: center;
+            padding-bottom :10px;
+
+        }
+        div.cover-contact {
+            position : absolute;
+            top : 20px;
+            left : 10px;
+            border-left: 3px solid var(--color1);
+
+        }
+
+        div.cover-contact p{
+            font-size: 14px;
+            text-align : left;
+            margin-left: 10px;
+            margin-top: 0px;
+            margin-bottom:0px;
+            padding-bottom: 5px;
+            display : block;
+        }
+        div.cover-contact p:first-child{
+            padding-bottom:20px;
+        }
+
+        div.cover-contact a{
+            color : white;
+            font-size : 14px;
+            text-decoration : none;
+
+        }
+
+        div.cover-connexion a{
+            color : var(--color1);
+            font-size : 15px;
+            background-color : #00000040;
+            border : 2px solid var(--color1);
+            padding : 10px 20px;
+            text-decoration: none;
+        }
+
+        div.cover-connexion:hover a{
+            color : white;
+            border : 2px solid white;
+        }
+        div.cover-connexion p{
+            text-align : center;
+        }
+
+        .section {
+            padding : 30px 40px 30px 40px
+        }
+        div.section-grise1 {
+            background : url(triangle2white.svg) no-repeat center bottom/100%;
+            background-color : var(--color2);
+            padding-bottom: 80px;
+        }
+        div.section-grise2 {
+            background: url(triangle1white.svg) no-repeat center top/100%;
+            background-color : var(--color2) ;
+            padding-top: 80px;
+        }
+
+        h2 {
+            text-align : center;
+            margin-right: 0px;
+            padding-bottom: 10px;
+            margin-top: 0px;
+            text-color: black;
+        }
+
+        div.separator {
+            background-color: var(--color3) ;
+            height :1px;
+            width: 150px;
+            margin-top: 0px;
+
+            margin-bottom: 20px;
+
+
+        }
+
+        div.section-grise1 p{
+            color: var(--color4);
+            text-align: center;
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        div.col1 {
+            width: 39%;
+            display : inline-block;
+        }
+
+        div.col2 {
+            width: 60%;
+        }
+
+        div.col2 p{
+            padding-left: 10px;
+            margin-top:0px;
+
+        }
+
+        div.float-right {
+            float: right;
+        }
+
+        .border-left {
+             border-left: 3px solid var(--color1);
+             height : 49px;
+        }
+
+        div.col2 a {
+            color: var(--color1);
+            font-size: 15px;
+            text-decoration: non;
+        }
+
+        .ligne-vertical {
+            height: 60px;
+            width: 3px;
+            background-color : var(--color1);
+            margin-right: 10px;
+        }
+
+        table.colA {
+            width: 48%;
+        }
+
+
+
+        div.titre h2{
+            color: #696969;
+            text-align: center;
+
+        }
+
+        .img-caro {
+            height: 300px;
+            width : 300px;
+        }
+
+         table, tr, td {
+            border:2px solid green;
+            border-collapse: collapse;
+         }
+
+         .jumbo {
+            background-color: #e9ecef;
+            overflow:auto;
+         }
+
+         .art-degrade h3 {
+            background: linear-gradient(to right, #1111, #010);
+	         -webkit-background-clip: text;
+	         -webkit-text-fill-color: transparent;
+         }
+
+
